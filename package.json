@@ -1,5 +1,25 @@
 {
-    "volo": {
-        "url": "https://raw.github.com/jrburke/r.js/{version}/dist/r.js"
-    }
+  "volo": {
+    "url": "https://raw.github.com/jrburke/r.js/{version}/dist/r.js"
+  },
+  "name": "rjs",
+  "description": "A command line tool for running JavaScript scripts that use the [Asychronous Module Defintion API (AMD)](http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition) for declaring and using JavaScript modules and regular JavaScript script files.",
+  "version": "2.1.15",
+  "main": "copydist.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbiz/r.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbiz/r.js/issues"
+  },
+  "homepage": "https://github.com/fbiz/r.js#readme"
 }
